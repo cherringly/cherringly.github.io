@@ -1,0 +1,64 @@
+/* styles.css */
+
+body {
+  background-color: #f8f4ec;
+  font-family: Monaco, monospace;
+  color: #1f202d;
+  margin: 0;
+  padding: 0 20px;
+}
+
+h1, h2 {
+  font-family: Georgia, serif;
+  font-style: italic;
+  color: #1f202d;
+}
+
+h3, h4, h5 {
+  font-family: Georgia, serif;
+  color: #1f202d;
+}
+
+p, td, th, a {
+  font-family: Monaco, monospace;
+  color: #1f202d;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #1f202d;
+  padding: 10px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #1f202d;
+}
+
+.navbar {
+  background-color: #1f202d;
+  padding: 10px 20px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+}
+
+.navbar a {
+  color: #f8f4ec;
+  font-family: Georgia, serif;
+  font-weight: bold;
+}
